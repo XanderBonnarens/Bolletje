@@ -1,0 +1,91 @@
+h1{
+    text-align: center;
+    color: pink;
+    text-shadow: 
+        -1px -1px 0 purple,  /* Schaduw linksboven */
+        1px -1px 0 purple,   /* Schaduw rechtsboven */
+        -1px 1px 0 purple,   /* Schaduw linksonder */
+        1px 1px 0 purple;    /* Schaduw rechtsonder */
+    font-size: 2rem; /* Pas de tekstgrootte aan indien nodig */
+}
+body{
+    font-family: cursive;
+    background-color:   black;
+    color: white;
+    text-shadow: 
+    -1px -1px 0 purple,  /* Schaduw linksboven */
+    1px -1px 0 purple,   /* Schaduw rechtsboven */
+    -1px 1px 0 purple,   /* Schaduw linksonder */
+    1px 1px 0 purple;    /* Schaduw rechtsonder */
+font-size: 1.5rem; /* Pas de tekstgrootte aan indien nodig */
+
+}
+table {
+    color: white;
+    text-shadow: 
+        -1px -1px 0 purple,  /* Schaduw linksboven */
+        1px -1px 0 purple,   /* Schaduw rechtsboven */
+        -1px 1px 0 purple,   /* Schaduw linksonder */
+        1px 1px 0 purple;    /* Schaduw rechtsonder */
+    font-size: 1.5rem; /* Pas de tekstgrootte aan indien nodig */
+
+
+    text-align: inherit
+    
+}
+thead{
+    text-align: right;
+}
+table, td, th {
+    margin: 0 auto;
+    border: 3px solid   pink;
+    padding: 10px;
+    border-collapse: collapse;
+    text-align: right;
+}
+
+
+h2{
+    color: white;
+    text-shadow: 
+    -1px -1px 0 purple,  /* Schaduw linksboven */
+    1px -1px 0 purple,   /* Schaduw rechtsboven */
+    -1px 1px 0 purple,   /* Schaduw linksonder */
+    1px 1px 0 purple;    /* Schaduw rechtsonder */
+font-size: 1.5rem; /* Pas de tekstgrootte aan indien nodig */
+text-align: center;
+}
+a{
+    color: red;
+    display: inline-block; /* Maakt het vak inline en gemakkelijk te centreren */
+    padding: 10px 20px; /* Ruimte binnen het vak */
+    border: 2px solid pink; /* De rand van het vak */
+    text-decoration: none; /* Verwijdert de standaard onderstreping van de link */
+    color: pink; /* Tekstkleur van de link */
+    font-size: 16px; /* Tekstgrootte */
+    background-color: purple; /* Achtergrondkleur van het vak */
+    border-radius: 5px; /* Maak de hoeken afgerond (optioneel) */
+    text-shadow: 
+    -1px -1px 0 black,  /* Schaduw linksboven */
+    1px -1px 0 black,   /* Schaduw rechtsboven */
+    -1px 1px 0 black,   /* Schaduw linksonder */
+    1px 1px 0 black;    /* Schaduw rechtsonder */
+font-size: 1.5rem; /* Pas de tekstgrootte aan indien nodig */
+
+
+            display: flex; /* Gebruik Flexbox voor centrering */
+            justify-content: center; /* Horizontaal centreren */
+            align-items: center; /* Verticaal centreren */
+            height: center; /* Zorg ervoor dat de container de volledige hoogte van de pagina vult */
+            cursor: pointer;
+}
+p{
+    text-align: center;
+}
+table{
+    align-self: center;
+}
+
+
+
+

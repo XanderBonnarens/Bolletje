@@ -1,0 +1,51 @@
+body{
+    font-family: cursive;
+    background-color:   black;
+    color: white;
+    text-shadow: 
+    -1px -1px 0 purple,  /* Schaduw linksboven */
+    1px -1px 0 purple,   /* Schaduw rechtsboven */
+    -1px 1px 0 purple,   /* Schaduw linksonder */
+    1px 1px 0 purple;    /* Schaduw rechtsonder */
+font-size: 1.5rem; /* Pas de tekstgrootte aan indien nodig */
+}
+h1{
+    text-align: center;
+    color: pink;
+    text-shadow: 
+        -1px -1px 0 purple,  /* Schaduw linksboven */
+        1px -1px 0 purple,   /* Schaduw rechtsboven */
+        -1px 1px 0 purple,   /* Schaduw linksonder */
+        1px 1px 0 purple;    /* Schaduw rechtsonder */
+    font-size: 2rem; /* Pas de tekstgrootte aan indien nodig */
+}
+a{
+    display: inline-block; /* Maakt het vak inline en gemakkelijk te centreren */
+    padding: 10px 20px; /* Ruimte binnen het vak */
+    border: 2px solid pink; /* De rand van het vak */
+    text-decoration: none; /* Verwijdert de standaard onderstreping van de link */
+    color: pink; /* Tekstkleur van de link */
+    font-size: 16px; /* Tekstgrootte */
+    background-color: purple; /* Achtergrondkleur van het vak */
+    border-radius: 5px; /* Maak de hoeken afgerond (optioneel) */
+    text-shadow: 
+    -1px -1px 0 black,  /* Schaduw linksboven */
+    1px -1px 0 black,   /* Schaduw rechtsboven */
+    -1px 1px 0 black,   /* Schaduw linksonder */
+    1px 1px 0 black;    /* Schaduw rechtsonder */
+font-size: 1.5rem; /* Pas de tekstgrootte aan indien nodig */
+}
+img{
+    width: 300px;
+    height: auto;
+    align-content: center;
+}
+.knuffel{
+    display: inline-block; /* Zorgt ervoor dat de tekst naast elkaar komt */
+            margin-right: 100px; /* Optioneel: ruimte tussen de twee teksten */
+}
+.foto{
+    display: inline-block; /* Zorgt ervoor dat de tekst naast elkaar komt */
+    margin-right: 20px; /* Optioneel: ruimte tussen de twee teksten */
+    
+}
